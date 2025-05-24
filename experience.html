@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Talha Portfolio</title>
+  <link rel="stylesheet" href="./dist/output.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-[#0f172a] text-indigo-100 font-sans">
+
+  <!-- Navbar -->
+  <nav class="w-full fixed top-0 bg-[#1e293b] bg-opacity-90 backdrop-blur-md shadow-md z-50">
+    <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3"></div>
+      <ul class="hidden md:flex space-x-8 text-indigo-100 font-semibold uppercase text-sm">
+        <li class="hover:text-white transition"><a href="portfolio.html">Portfolio</a></li>
+        <li class="hover:text-white transition"><a href="about.html">About Me</a></li>
+        <li class="hover:text-white transition"><a href="experience.html">Experience</a></li>
+        <li class="hover:text-white transition"><a href="project.html">Projects</a></li>
+        <li class="hover:text-white transition"><a href="education.html">Education</a></li>
+      </ul>
+      <img src="./image/moon.png" class="hidden md:block w-6 cursor-pointer brightness-125" alt="Toggle Theme" />
+      <div class="md:hidden space-y-1 cursor-pointer"></div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="relative min-h-screen pt-32 px-10 bg-gradient-to-tr from-[#0f172a] via-[#1e293b] to-[#334155]">
+
+    <!-- Decorative Circles -->
+    <div class="absolute w-72 h-72 bg-pink-500 rounded-full blur-3xl opacity-10 top-10 -left-20 z-0"></div>
+    <div class="absolute w-96 h-96 bg-cyan-400 rounded-full blur-2xl opacity-10 bottom-20 -right-24 z-0"></div>
+
+    <!-- Text Fields Container -->
+    <div class="relative z-10 flex flex-col gap-6">
+
+      <!-- Text Field 1 -->
+      <div class="bg-[#1e293b] bg-opacity-90 border-indigo-500 text-indigo-100 rounded-xl p-6 shadow-xl w-full">
+        <h2 class="text-3xl font-bold mb-2">Advisor</h2>
+        <p class="text-lg">Seroil Government High School Science & Mathematics Club - SSMC</p>
+        <p class="mt-2 text-sm text-indigo-200">
+          Skills: Expert Advisor and Academic Advising
+        </p>
+      </div>
+
+      <!-- Text Field 2 -->
+      <div class="bg-[#1e293b] bg-opacity-90 border-indigo-500 text-indigo-100 rounded-xl p-6 shadow-xl w-full">
+        <h2 class="text-3xl font-bold mb-2">Creative Director</h2>
+        <p class="text-lg">RUET Cyber Security Club</p>
+        <p class="mt-2 text-sm text-indigo-200">
+          Skills: Cybersecurity, Capture The Flag, Video Editor and Graphics Designer
+        </p>
+      </div>
+
+      <!-- Text Field 3 -->
+      <div class="bg-[#1e293b] bg-opacity-90 border-indigo-500 text-indigo-100 rounded-xl p-6 shadow-xl w-full">
+        <h2 class="text-3xl font-bold mb-2">Executive Committee Member</h2>
+        <p class="text-lg">Rajshahi City Association, RUET</p>
+        <p class="mt-2 text-sm text-indigo-200">
+          Skills: Leadership and Management
+        </p>
+      </div>
+
+      <!-- Text Field 4 -->
+      <div class="bg-[#1e293b] bg-opacity-90 border-indigo-500 text-indigo-100 rounded-xl p-6 shadow-xl w-full">
+        <h2 class="text-3xl font-bold mb-2">Programmer</h2>
+        <p class="text-lg">ZayanIT</p>
+        <p class="mt-2 text-sm text-indigo-200">
+          Skills: Machine Language: C, C++, JAVA and Video Editing
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+
+</html>
