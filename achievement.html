@@ -24,7 +24,19 @@
         <li class="hover:text-white transition"><a href="achievement.html">Achievement</a></li>
       </ul>
       <img src="./image/moon.png" class="hidden md:block w-6 cursor-pointer brightness-125" alt="Toggle Theme" />
-      <div class="md:hidden space-y-1 cursor-pointer"></div>
+      <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+          <div class="w-6 h-0.5 bg-white"></div>
+          <div class="w-6 h-0.5 bg-white"></div>
+          <div class="w-6 h-0.5 bg-white"></div>
+        </div>
+        <ul id="menu" class="hidden absolute top-16 right-6 bg-[#0f172a] p-5 rounded-b-3xl space-y-6 text-sm uppercase">
+          <li><a href="portfolio.html" class="hover:text-white transition">Portfolio</a></li>
+          <li><a href="about.html" class="hover:text-white transition">About Me</a></li>
+          <li><a href="experience.html" class="hover:text-white transition">Experience</a></li>
+          <li><a href="project.html" class="hover:text-white transition">Projects</a></li>
+          <li><a href="education.html" class="hover:text-white transition">Education</a></li>
+          <li><a href="achievement.html" class="hover:text-white transition">Achievement</a></li>
+        </ul>
     </div>
   </nav>
 
@@ -64,7 +76,7 @@
 
     </div>
   </main>
-
+<script src="./menu.js"></script>
 </body>
 
 </html>
